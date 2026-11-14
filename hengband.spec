@@ -10,7 +10,7 @@ Group: Amusements/Games
 Url: https://hengband.github.io
 Source: hengband-%{version}.tar.gz
 Requires: ncurses-libs libstdc++ libcurl libX11 libXft
-BuildRequires: autoconf automake gcc-c++ ncurses-devel libcurl-devel nkf libX11-devel libXft-devel
+BuildRequires: autoconf automake gcc-c++ make ncurses-devel libcurl-devel nkf libX11-devel libXft-devel
 
 Requires: %{name}-data = %{version}
 
